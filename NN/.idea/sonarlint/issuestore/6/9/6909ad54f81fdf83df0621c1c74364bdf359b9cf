@@ -1,0 +1,19 @@
+
+K
+java:S1172'"/Remove this unused method parameter "testData".(—ÃY8ÍŸÍºÕ.
+P
+java:S1068".Remove this unused "layerSizes" private field.(•ç–Öûÿÿÿÿ8€±·ÚÔ.
+^	java:S125Š"<This block of commented-out lines of code should be removed.(ÑÍ€…şÿÿÿÿ8Ë¯Ğ¨Õ.
+D
+java:S1481…"&Remove this unused "y" local variable.(–´¿—8¬Ä“ãÕ.
+O
+java:S1481‰",Remove this unused "network" local variable.(Ú·‰ñıÿÿÿÿ8¬Ä“ãÕ.
+S
+java:S1854…"5Remove this useless assignment to local variable "y".(–´¿—8¬Ä“ãÕ.
+X	java:S125"<This block of commented-out lines of code should be removed.(éı8¬Ä“ãÕ.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(Ï¬éƒ8ö¥°Õ.
+i	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÃY8ÖäÇºÕ.
+^
+java:S1854‰";Remove this useless assignment to local variable "network".(Ú·‰ñıÿÿÿÿ8¬Ä“ãÕ.
+d
+java:S2095…"FUse try-with-resources or close this "INDArray" in a "finally" clause.(–´¿—8¬Ä“ãÕ.
