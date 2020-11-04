@@ -1,0 +1,6 @@
+
+o	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²„Š‘ýÿÿÿÿ8«†•Ð×.
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8«†•Ð×.
+P
+java:S1068".Remove this unused "layerSizes" private field.(•ç–Öûÿÿÿÿ8«†•Ð×.
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(´Ëàá8«†•Ð×.

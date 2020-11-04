@@ -11,7 +11,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
-* Class representing a neural network
+* Class representing a neural network. It uses the MSE cost function.
+ * No regularization is applied
 * */
 
 public class Network {

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="59d60163-447d-4dbf-897f-6ab7374eaba2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,17 +23,11 @@
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1jBlzZLpnrtu0UGLilHxuFNxKjA" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -40,8 +37,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Network">
+  <component name="RunManager" selected="Application.NetworkCustom">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="NN" />
@@ -62,13 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NetworkCustom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NetworkCustom" />
+      <module name="NN" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NetworkCustom" />
         <item itemvalue="Application.Network" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -91,54 +100,67 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2679" y="375" width="837" height="705" key="#xdebugger.evaluate/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603632469349" />
-    <state width="1874" height="283" key="GridCell.Tab.0.bottom" timestamp="1603651330142">
+    <state width="1874" height="288" key="GridCell.Tab.0.bottom" timestamp="1604484047428">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="283" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603651330142" />
-    <state width="1874" height="283" key="GridCell.Tab.0.center" timestamp="1603651330142">
+    <state width="1874" height="283" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603986671601" />
+    <state width="1807" height="283" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1603987416137" />
+    <state width="1874" height="288" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604484047428" />
+    <state width="1802" height="279" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1604071675598" />
+    <state width="1874" height="288" key="GridCell.Tab.0.center" timestamp="1604484047427">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="283" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603651330142" />
-    <state width="1874" height="283" key="GridCell.Tab.0.left" timestamp="1603651330142">
+    <state width="1874" height="283" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603986671601" />
+    <state width="1807" height="283" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1603987416137" />
+    <state width="1874" height="288" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604484047427" />
+    <state width="1802" height="279" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1604071675597" />
+    <state width="1874" height="288" key="GridCell.Tab.0.left" timestamp="1604484047427">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="283" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603651330142" />
-    <state width="1874" height="283" key="GridCell.Tab.0.right" timestamp="1603651330142">
+    <state width="1874" height="283" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603986671601" />
+    <state width="1807" height="283" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1603987416137" />
+    <state width="1874" height="288" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604484047427" />
+    <state width="1802" height="279" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1604071675597" />
+    <state width="1874" height="288" key="GridCell.Tab.0.right" timestamp="1604484047427">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="283" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603651330142" />
-    <state width="1874" height="256" key="GridCell.Tab.1.bottom" timestamp="1603632498839">
+    <state width="1874" height="283" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603986671601" />
+    <state width="1807" height="283" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1603987416137" />
+    <state width="1874" height="288" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1604484047427" />
+    <state width="1802" height="279" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1604071675597" />
+    <state width="1874" height="256" key="GridCell.Tab.1.bottom" timestamp="1603657852617">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="256" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603632498839" />
-    <state width="1874" height="256" key="GridCell.Tab.1.center" timestamp="1603632498839">
+    <state width="1874" height="256" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603657852617" />
+    <state width="1874" height="256" key="GridCell.Tab.1.center" timestamp="1603657852617">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="256" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603632498839" />
-    <state width="1874" height="256" key="GridCell.Tab.1.left" timestamp="1603632498839">
+    <state width="1874" height="256" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603657852617" />
+    <state width="1874" height="256" key="GridCell.Tab.1.left" timestamp="1603657852616">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="256" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603632498839" />
-    <state width="1874" height="256" key="GridCell.Tab.1.right" timestamp="1603632498839">
+    <state width="1874" height="256" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603657852616" />
+    <state width="1874" height="256" key="GridCell.Tab.1.right" timestamp="1603657852617">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="256" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603632498839" />
-    <state x="2536" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1603619500294">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1874" height="256" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603657852617" />
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1604045659282">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="2536" y="366" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603619500294" />
+    <state x="662" y="384" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1604045659282" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Network.java</url>
-          <line>202</line>
+          <line>203</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Network.java</url>
-          <line>166</line>
+          <line>167</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>

@@ -11,8 +11,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
-* Class representing a neural network
-* */
+ * Class representing a neural network. It uses the Cross-entropy cost function.
+ * L2 regularization is applied
+ * */
 
 public class NetworkCustom {
     private int layers;
@@ -59,6 +60,7 @@ public class NetworkCustom {
      * @param epochs number of epochs used to train the network
      * @param batchSize the size of batch
      * @param eta the learning rate
+     * @param lambda the regularization parameter
      * @param testData data to test the network
      * */
     public void SGD(DataSet trainingData, int epochs, int batchSize, double eta, double lambda, DataSet testData) {
@@ -84,6 +86,8 @@ public class NetworkCustom {
      * Updates the weights un biases of the network using backpropagation for a single mini-batch
      * @param miniBatch the mini batch used to train the network
      * @param eta the learning rate
+     * @param lambda the regularization parameter
+     * @param trainingSize the size of the training data
      * */
     public void updateMiniBatch(DataSet miniBatch, double eta, double lambda, int trainingSize) {
         INDArray [] gradientBatchB = new INDArray[layers];
@@ -203,6 +207,6 @@ public class NetworkCustom {
         DataSetIterator mnistTest = new MnistDataSetIterator(10000, false, 12);
         int [] sizes = {784, 30, 10};
         NetworkCustom network = new NetworkCustom(sizes);
-        network.SGD(mnistTrain.next(), 30, 10, 3.0, 1.0, mnistTest.next());
+        network.SGD(mnistTrain.next(), 30, 10, 0.5, 5.0, mnistTest.next());
     }
 }
